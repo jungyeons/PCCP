@@ -71,7 +71,10 @@ public class Main {
         //찾고자 하는게 있는지
         System.out.println( list1.contains( "Orange" ));
 
+        //앞에서 부터 세기
         System.out.println(list1.indexOf("Orange"));
+        //뒤에서 부터 세기
+        System.out.println(list1.lastIndexOf("Orange"));
 
 
     }
