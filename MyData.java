@@ -23,10 +23,13 @@ public class MyData{
     }
     public static void main(String[] args) {
         LinkedList<MyData> linkedList = new LinkedList<>();
+        //list를 백터로 형변환 할 수 있다.
         linkedList.add(MyData.createData(1));
         linkedList.add(MyData.createData(2));
         linkedList.add(MyData.createData(3));
         System.out.println(linkedList.toString());
         System.out.println(linkedList.contains(MyData.createData(1)));
+
+
     }
 }
